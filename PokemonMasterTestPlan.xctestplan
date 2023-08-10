@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "7E39F747-D9AD-4F4A-8C66-F67D771BF560",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:PokemonMaster.xcodeproj",
+          "identifier" : "D33762F12A4293DF00A5DB6B",
+          "name" : "PokemonMaster"
+        }
+      ]
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PokemonMaster.xcodeproj",
+        "identifier" : "D340CD042A4E8EB500F1127E",
+        "name" : "PokemonMasterTests"
+      }
+    }
+  ],
+  "version" : 1
+}
